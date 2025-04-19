@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.home-body{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*----------------------------------------------HERO SECTION------------------------*/
+.home-body{
+    padding-top: 120px;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+.home-body h1{
+    font-weight: 900;
+    font-size: 55px;
+}
+
+#c1-headline{
+    padding-left: 50px;
+}
+
+.pgrh-txt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#hero-snippet{
+    padding-left: 20px;
+}
+
+.Register-btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: 5px solid rgba(105, 228, 255, 0.378);
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.3s ease-in;
+   display: block;
+   justify-self: center;
+
+}
+.Register-btn:hover{
+    background-color: #9A4DFF;
+
+}
+.intro-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 10%;
+    max-width: 60%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 5px var(--primary-color);
+    align-items: center;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+    color: rgb(51, 51, 51);
+    animation: MoveDownUp 10s linear infinite
+}
+@keyframes MoveDownUp {
+    0%, 100% {
+      bottom: 100px;
+
+    }
+    50% {
+      bottom: -10px;
+
+    }
+}
+.intro-container .col{
+    padding: 10px;
+
+}
+.intro-container p{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-family: "Orbitron", sans-serif;
+
+}
+#bruce-personal-img{
+    height: 60px;
+    width: 80px;
+}
+
+
+#TM8-bruce-img {
+    width: 400px;
+    justify-content: center;
+}
+
+
+/*------------------------ THE SECOND CONTAINER -----------------*/
+#container2{
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Robot-img{
+    height: 420px;
+    width: 400px;
+    left: 150px;
+    z-index: 3;
+    position: absolute;
+    border-radius: 20px;
+    
+    
+}
+
+#images-group{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+.txt-container{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+/*----------------------------------------------*/
+
+#container3{
+    max-width: 95%;
+    display: inline-block;
+    opacity: 90%;
+
+}
+.h-card{
+    background: linear-gradient(180deg,var(--secondary-color) 60%, var(--primary-color) 190%);   
+    color: white;
+    border-color: #9A4DFF;
+    margin: 5px 10px;
+    padding: 25px 25px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.about-txt{
+    padding-bottom: 80px;
+}
+#container3 p{
+    padding-top: 10px;
+    
+}
+
+#container3 p, .pgrh-txt, .text-container p{
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+
+#container3 h3{
+    font-weight: 800;
+    font-size: 28px;
+}
+#crm-logos{
+    height: 30px;
+}
+#crm-logo-title{
+    height: 60px;
+}
+#crm-logos, #crm-logo-title{
+    width: 150px;
+}
+
+/*----Hovering effect of numbers-------*/
+#number{
+    position: relative;
+    bottom: 0;
+    font-weight: 500;
+    padding-bottom: 5px;
+    opacity: 20%;
+}
+#number:hover{
+    opacity: 100%;
+
+    
+}
+
+#text-container{
+    height: 260px;
+    padding-top: 20px;
+}
+
+
+
+#Card-icon{
+    margin-top: -100px;
+    width: 80px;
+    height: 100px;
+    opacity: 70%;
+}
+
+#Card-icon:hover{
+    transform: rotateY(180deg);
+}
+
+/*---------------------- THE THIRD CONTAINER --------------------*/
+#container4{
+    padding-top: 90px;
+    max-width: 100%;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#container4-title{
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+.text-container h3{
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.arrows-icon{
+    width: 50px;
+    height: 100px;
+    opacity: 30%;
+}
+
+.v-card{
+    padding: 25px 25px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#v-card1, #v-card3{
+    background: linear-gradient(180deg,var(--secondary-color) 60%, var(--primary-color) 190%);   
+    border-color: #9A4DFF;
+    color: white;
+
+}
+#v-card2{
+    background-color: white;
+    /*border: 5px solid #24d1ef83;*/
+    box-shadow: 0px 0px 27px 0px var(--secondary-color);
+}
+#v-card2 h3{
+    color: var(--secondary-color);
+
+}
+
+#container4-img{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: max-content;
+
+}
+
+.card-icon{
+    height: 50px;
+    width: 55px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+/* ---------------- THE FOURTH CONTAINER ------------------*/
+
+#container5, #container6{
+    padding-top: 80px;
+}
+#container5 p, #container6 p{
+    padding-bottom: 30px;
+}
+.timeline-container{
+
+    align-self: center;
+    position: relative;
+
+}
+
+.btn-position{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+/* ------------ THE SEVENTH CONTAINER---------*/
+#container7{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.container7-headline{
+    padding: 50px 50px;
+    width: 100%;
+    
+    
+}
+.container7-headline h1{
+    color: var(--primary-color);
+}
+
+
+#container7 .col{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px var(--primary-color);
+}
+
+.pricing-containers{
+    margin-top: 50px;
+}
+.pricing-containers li{
+    list-style-type: none;
+    text-align: left;
+    padding: 5px 10px;
+    
+}
+.pricing-containers h2{
+    padding-top: 25px;
+    
+}
+#Pricing-container1 h2, #Pricing-container3 h2{
+    color: var(--primary-color);
+}
+
+.pricing {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+.pricing small{
+    font-size: 15px;
+}
+#Pricing-container2{
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#Pricing-container3 button{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/*---------------EIGHTH CONTAINER----------*/
+
+#container8{
+
+}
+#sub-container8{
+    margin: 40px;
+    padding: 10px 40px;
+    background: linear-gradient(180deg,var(--secondary-color) 60%, var(--primary-color) 190%);   
+    color: white;
+    border-radius: 20px 20px 420px 20px;    
+    
+}
+#c8-cols{
+    align-items: center;
+}
+
+
+#c8-btn{
+    margin-top: 20px;
+    justify-self: center;
+}
+
+#container8-title{
+    font-size: 50px;
+    text-align: left;
+    width: 100%;
+    
+}
+
+#c8-cols-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+#grid-col1{
+    justify-self: center;
+    align-content: center;
+    position: relative;
+    padding-left: 50px;
+    text-align: left;
+    
+
+}
+
+/*----------------- NINTH CONTAINER -----------------*/
+#c9-snippet-txt{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+
+
+/*-------------- TENTH CONTAINER----------*/
+#c10-title{
+    color: var(--primary-color);
+    font-size: 70px;
+}
+#container10{
+    margin-top: 50px;
+}
+#c10-snippet-txt{
+    margin-top: 20px;
+    padding-right: 40px;
+    text-align: justify;
+
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    #container8-title{
+        font-size: 20px;
+        text-align: left;
+        padding: 5px 20px;
+    }
+
+    /* C1 */
+
+    #c1-bruce-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    #TM8-bruce-img{
+        width: 200px;
+    }
+
+    .home-body p{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    #container2{
+        padding-top: 0px;;
+    }
+
+    .txt-container{
+        
+    }
+
+    #Pricing-container2{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #Pricing-container2, #Pricing-container3{
+        margin-top: 25px;
+    
+    }
+    #container3 h3{
+        font-size: 20px;
+    }
+    
+    #container4-img{
+        max-width: 80%;
+    }
+
+    #container4 img{
+        position: relative;
+        width: auto;
+    }
+
+    /* c7 */
+
+    .home-body h1{
+        font-size: 25px;
+    }
+
+
+    .container7-headline{
+        padding: 50px 0px 0px 0px;
+
+    }
+    .container7-headline h1{
+        font-size: 30px;
+    }
+
+    #Robot-img{
+        height: 150px;
+        width: 150px;
+        
+    }
+
+    .h-card{
+        margin: 25px 0px;
+    }
+    .text-container h3{
+        text-align: center;
+    }
+
+    .pricing{
+        font-size: 30px;
+    }
+    .pricing-containers li{
+        font-size: 12px;
+    }
+
+    .btn-position{
+        margin-left: 0px;
+    }
+    #sub-container8{
+        margin: 0px;
+        padding: 0px;
+    }
+    #sub-container8 p{
+        text-align: center;
+    }
+    .Register-btn{
+        justify-self: center;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    #c9-headline{
+        padding-top: 40px;
+    }
+
+    #c9-snippet-txt{
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    #c10-snippet-txt{
+        padding-right: 0;
+        text-align: center;
+    }
+    
+
+}
+
+@media (max-width: 830px){
+        /* C1 */
+        #c1-headline{
+            padding-left: 0px;
+        }
+
+
+        /* c8 */
+        #c8-cols-container{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .blue-body-img{
+            margin-top: -150px;
+
+        }
+        #sub-container8{
+            border-radius: 20px;
+            margin-top: 150px;
+        }
+        #grid-col1{
+            padding-left: 0px;
+            padding-bottom: 40px;
+        }
+}
+@media (max-width: 1270px){
+    #container2{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        max-width: 100%;
+
+    }
+    #images-group{
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .txt-container{
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:3000px){
+    .home-body{
+        width: 70%;
+    }
+}
+

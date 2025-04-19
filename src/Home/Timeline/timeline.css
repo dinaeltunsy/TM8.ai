@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #24D1EF;
+    --secondary-color: #2E4C68
+  }
+
+.uk-timeline .uk-timeline-item {
+    display: flex;
+    position: relative;
+    
+}
+
+.uk-timeline .uk-timeline-item::before {
+    background: #dadee4;
+    content: "";
+    height: 100%;
+    left: 19px;
+    position: absolute;
+    top: 20px;
+    width: 2px;
+	z-index: -1;
+}
+
+
+.uk-timeline .uk-timeline-item .uk-timeline-content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0 0 1rem;
+}
+
+.uk-card{
+    box-shadow: 5px 5px 10px var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 500px;
+   
+}
+.uk-card:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.uk-card-header{
+    padding: 25px;
+
+}
+.uk-card-title{
+    font-weight: 800;
+}
+.uk-card-body{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.timeline-img{
+    padding-top: 50px;
+
+    height: 80%;
+    left: 80px;
+    position: relative;
+
+}
+
+
+@media (max-width: 480px){
+    .uk-card {
+        width: 80%;
+        padding: 0 15px 0 15px;
+    }
+    .timeline-img{
+        padding-top: 0px;
+        width: 200px;
+        height: 300px;
+        left: 0;
+    }
+    .uk-card-body{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .uk-card-header{
+        padding: 10px;
+    }
+    .uk-card h3{
+        font-size: 18px;
+
+    }
+    .uk-card p{
+        font-size: 12px;
+    }
+}

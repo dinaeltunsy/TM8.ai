@@ -1,0 +1,107 @@
+#pulsating-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #24D1EF;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    animation: pulse 2s infinite alternate; /* Adjust animation duration as needed */
+}
+
+@keyframes pulse {
+    0%,100% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(2);
+        opacity: 80%;
+        background-color: #5d5d5db5;
+    }
+
+}
+
+/* ---------------- Image animation-----------*/
+#Robot-Front-img{
+    width: 180px;
+    height: 165px;
+    position: absolute;
+    border-radius: 20px;
+    top:330px;
+    left: 450px;
+    animation: moveRightLeft 8s linear infinite;
+    z-index: 4;
+}
+
+@keyframes moveRightLeft {
+    0%,100%  {
+        transform: translateX(0); /* Initial position */
+        transform: translateY(0);
+
+    }
+    50% {
+        transform: translateX(25px); /* Move 25px to the right */
+        
+    }
+    75%{
+        transform: translateY(5px);
+    }
+
+}
+#Robot-Back-img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -65px;
+    left: 85px;
+    border-radius: 20px;
+    animation: moveLeftDown 5s linear infinite;
+    z-index: 2;
+}
+@keyframes moveLeftDown {
+    0% {
+        transform: translateX(0); /* Initial position */
+        transform: translateY(0);
+
+    }
+    50% {
+        transform: translateX(-25px); /* Move 25px to the right */
+        
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateX(0); /* Return to the initial position */
+    }
+}
+
+
+#overlay {
+    position: relative;
+    top: 0;
+    left: 150px;
+    width: 415px;
+    height: 400px;
+    transform: rotate(20deg);
+    background-color: rgba(2, 74, 80, 0.281); /* Adjust transparency by changing the alpha value (0.5 is 50% transparency) */
+    border-radius: 80px; /* Adjust the border radius to your desired value */
+    z-index: 1; /* Make sure the overlay is behind the image */
+    box-shadow: 5px 10px #24d1ef8f
+    ;
+  }
+
+  .blue-body-img{
+    height: 400px;
+    animation: moveRightLeft 8s linear infinite;
+}
+@media (max-width: 480px){
+
+    #images-group{
+        display: none;
+    }
+    #container2{
+        margin-top: 10px
+    }
+}
