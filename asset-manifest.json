@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/TM8.ai/static/css/main.9abc0e36.css",
+    "main.js": "/TM8.ai/static/js/main.95a26bcd.js",
+    "static/js/453.2e5fbe90.chunk.js": "/TM8.ai/static/js/453.2e5fbe90.chunk.js",
+    "static/media/Bruce2.png": "/TM8.ai/static/media/Bruce2.4a79e4a3808e08b04064.png",
+    "static/media/bruce.png": "/TM8.ai/static/media/bruce.d0d7927c72039fa5996d.png",
+    "static/media/fa-solid-900.ttf": "/TM8.ai/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/Bruce-personal.png": "/TM8.ai/static/media/Bruce-personal.8e1fa66ca1ba829a466c.png",
+    "static/media/Silver- Human-Robot.png": "/TM8.ai/static/media/Silver- Human-Robot.85876aba258282b82023.png",
+    "static/media/blue-body.png": "/TM8.ai/static/media/blue-body.1e966559ae9ac516841d.png",
+    "static/media/fa-brands-400.ttf": "/TM8.ai/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/Robot-Golden.jpg": "/TM8.ai/static/media/Robot-Golden.f3bae528bbd47a26768b.jpg",
+    "static/media/fa-solid-900.woff2": "/TM8.ai/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/SilverFace.jpg": "/TM8.ai/static/media/SilverFace.d4e31d3e659f97f8333c.jpg",
+    "static/media/silverhuman.jpg": "/TM8.ai/static/media/silverhuman.5c4a9b781b92522c8400.jpg",
+    "static/media/Robot6.jpg": "/TM8.ai/static/media/Robot6.4b501728ad81a9a05007.jpg",
+    "static/media/fa-brands-400.woff2": "/TM8.ai/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/Robot4.jpg": "/TM8.ai/static/media/Robot4.f2ca437f17726fc9391a.jpg",
+    "static/media/Robot5.jpg": "/TM8.ai/static/media/Robot5.ad5bcc265b99c57ed202.jpg",
+    "static/media/Robot3.jpg": "/TM8.ai/static/media/Robot3.67213839fad060978d49.jpg",
+    "static/media/Robot1.jpg": "/TM8.ai/static/media/Robot1.c12d0f7be71edb4670af.jpg",
+    "static/media/Robot2.jpg": "/TM8.ai/static/media/Robot2.37e268e408f46ef621d1.jpg",
+    "static/media/messenger.png": "/TM8.ai/static/media/messenger.738d1b58f56615fe8b4f.png",
+    "static/media/fa-regular-400.ttf": "/TM8.ai/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/Teamm8-logo.webp": "/TM8.ai/static/media/Teamm8-logo.8108222c6d96ea3c66c9.webp",
+    "static/media/instagram.png": "/TM8.ai/static/media/instagram.28944b9a16197e849f88.png",
+    "static/media/whatsapp.png": "/TM8.ai/static/media/whatsapp.c664b8daf06be1bdf3b9.png",
+    "static/media/fa-regular-400.woff2": "/TM8.ai/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/CRM-logos.png": "/TM8.ai/static/media/CRM-logos.c7f89df9ceb62cf95529.png",
+    "static/media/diamond.png": "/TM8.ai/static/media/diamond.05d1edd1a0258d1f1499.png",
+    "static/media/fa-v4compatibility.ttf": "/TM8.ai/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/TM8.ai/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/TM8.ai/index.html",
+    "main.9abc0e36.css.map": "/TM8.ai/static/css/main.9abc0e36.css.map",
+    "main.95a26bcd.js.map": "/TM8.ai/static/js/main.95a26bcd.js.map",
+    "453.2e5fbe90.chunk.js.map": "/TM8.ai/static/js/453.2e5fbe90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9abc0e36.css",
+    "static/js/main.95a26bcd.js"
+  ]
+}
