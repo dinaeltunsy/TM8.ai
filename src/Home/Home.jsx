@@ -19,7 +19,6 @@ import bluebodyimg from '../Images/blue-body.png'
 
 
 
-
 /*----ICONS----*/
 import UpandDownArrow from '../Images/swap.png'
 import diamondImg from '../Images/diamond.png'
